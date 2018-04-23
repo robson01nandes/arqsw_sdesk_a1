@@ -1,0 +1,1 @@
+package pizzariafactory;/** *  * @author Igor Almeida *	RA: 81617543 * */public class PizzaioloCalabresa implements Pizzaiolo {	public Pizza criarPizza() {		return new PizzaCalabresa();	}	@Override	public Calzone criarCalzone() {		return new CalzoneCalabresa();	}}

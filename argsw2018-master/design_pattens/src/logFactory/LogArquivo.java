@@ -1,0 +1,1 @@
+package logfactory;public class LogArquivo extends Log {	protected FerramentaLog criarFerramentaLog() {		return new FerramentaLogArquivo();	}}
